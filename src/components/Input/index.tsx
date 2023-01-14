@@ -7,8 +7,6 @@ export interface IInput {
 }
 
 const Input: React.FC<IInput> = ({ width = "100px", value, onClick }) => {
-
-    
   return (
     <div>
       <input data-testid="input" value={value} style={{ width }} type="text" />
